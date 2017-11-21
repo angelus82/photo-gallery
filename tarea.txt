@@ -1,0 +1,67 @@
+CREATE A PHOTO GALLERY
+
+- create 2 different pages
+    - photos list
+    - photo
+
+- LIST
+    - should have 5 best photos from your museum trip
+    - the list should be in a table (in the order as the example image)
+    - each photo should have
+        - title
+        - date (with hour when taken)
+        - link to photo details
+
+- PHOTO DETAILS
+    - should have a big photo
+    - should have PREVIOUS link (takes to the previous photo)
+    - (if photo 1 is opened, the previous button takes to photo 5)
+    - should have a NEXT link (takes to the next photo)
+    - if you are on the 5th photo, next button should take you to photo 1
+    - should have a "BACK TO THE LIST" button (that takes to the list page)
+
+
+ADVICE
+    - store photos (5 photos) in the photos folder under your project
+    - create 5 thumbnails with fireworks (store them in the same folder)
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+CREAR UNA GALERÍA DE FOTOS
+
+- crea 2 páginas diferentes
+     - lista de fotos
+     - foto
+
+- LISTA
+     - debe tener 5 mejores fotos de su viaje al museo
+     - la lista debe estar en una tabla (en el orden como la imagen de ejemplo)
+     - cada foto debe tener
+         - título
+         - fecha (con hora cuando se toma)
+         - enlace a los detalles de la foto
+
+- DETALLES FOTOGRÁFICOS
+     - debería tener una foto grande
+     - debe tener un enlace ANTERIOR (lleva a la foto anterior)
+     - (si se abre la foto 1, el botón anterior lleva a la foto 5)
+     - debe tener un enlace NEXT (lleva a la siguiente foto)
+     - si está en la 5ta foto, el siguiente botón debería llevarlo a la foto 1
+     - debe tener un botón "VOLVER A LA LISTA" (que lleva a la página de la lista)
+
+
+CONSEJO
+     - almacenar fotos (5 fotos) en la carpeta de fotos de su proyecto
+     - crea 5 miniaturas con fuegos artificiales (guárdalas en la misma carpeta)
