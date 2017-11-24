@@ -1,0 +1,79 @@
+STYLING
+
+1. Style your website
+
+    - Create a new GIT branch called 'styling' with command:
+        (git checkout -b "styling")
+        - make sure that the VSC editor has written 'styling' on the bottom and NOT 'master'
+
+    - have one CSS file for all the pages (gallery.html, photo1.html, photo2.....)
+
+    - after you are done with your changes:
+        - in the editor click on the GIT icon on the left
+        - write a change message and press CTRL+ENTER
+        - once done and the files dissapear, click on the "..." in the upper right corner and click PUSH
+
+
+2. The styles should have
+    - all
+        - text should have ARIAL font
+    - GALLERY
+        - every other photo column should have a light gray background (#eeeeee) color
+        - every image (photo) should have a red border of 1px
+        - dates should be of dark grey color (#888888)
+        - photo names should be bigger, at least 22px
+    - PHOTOS
+        - the PREVIOUS and NEXT should be in ONE line, previous on the LEFT and NEXT on the RIGHT
+        - the NEXT link should have ARROW right icon, the PREVIOUS should have LEFT arrow icon
+        - THE PREVOPIS and NEXT links should be bigger, at least 26px
+        - The Homepage link should have HOUSE icon and not ARROW.
+        - The Homepage link should say "Gallery"
+        - The Homepage link should be red color
+
+
+
+
+
+        ESTILO
+
+1. Diseña tu sitio web
+
+    - Crea una nueva rama GIT llamada 'estilo' con comando:
+        (git checkout -b "estilo")
+        - Asegúrate de que el editor de VSC haya escrito 'styling' en la parte inferior y NO 'master'
+
+    - tener un archivo CSS para todas las páginas (gallery.html, photo1.html, photo2 .....)
+
+    - Después de que haya terminado con sus cambios:
+        - en el editor, haga clic en el icono de GIT a la izquierda
+        - escribe un mensaje de cambio y presiona CTRL + ENTER
+        - Una vez hecho y los archivos desaparezcan, haga clic en "..." en la esquina superior derecha y haga clic en PUSH
+
+
+2. Los estilos deberían tener
+    - todas
+        - el texto debe tener fuente ARIAL
+    - GALERIA
+        - cada otra columna de foto debe tener un fondo gris claro (#eeeeee) color
+        - cada imagen (foto) debe tener un borde rojo de 1px
+        - las fechas deben ser de color gris oscuro (# 888888)
+        - los nombres de las fotos deben ser más grandes, al menos 22 píxeles
+    - FOTOS
+        - ANTERIOR y SIGUIENTE debe estar en UNA línea, anterior a la IZQUIERDA y SIGUIENTE a la DERECHA
+        - el siguiente enlace debería tener el ícono con la flecha hacia la derecha, el PREVIOUS debería tener el ícono de flecha hacia la IZQUIERDA
+        - Los enlaces PREVOPIS y NEXT deben ser más grandes, al menos 26 píxeles
+        - El enlace de la Página de inicio debe tener el ícono de CASA y no la FLECHA.
+        - El enlace de la página principal debe decir "Galería"
+        - El enlace de la página de inicio debe ser de color rojo
+
+
+
+CONSEJOS
+    - puede buscar "Diseño GALERIA siguiente y anterior botones con tabla HTML" o en español para facilitar la comprensión
+    - BÚSQUEDA de "utf-8 icons css" para ver ejemplos y encontrar flechas / iconos de la casa ("utf-8 icons css house")
+
+
+
+TIPS
+    - you can search for "GALLERY layout next and previous buttons with HTML table" or in Spanish for easier understanding
+    - SEARCH for "utf-8 icons css" for examples and to find arrows/house icons ("utf-8 icons css house")
