@@ -25,7 +25,7 @@ STYLING
     - PHOTOS
         - the PREVIOUS and NEXT should be in ONE line, previous on the LEFT and NEXT on the RIGHT
         - the NEXT link should have ARROW right icon, the PREVIOUS should have LEFT arrow icon
-        - THE PREVOPIS and NEXT links should be bigger, at least 26px
+        - THE PREVIOUS and NEXT links should be bigger, at least 26px
         - The Homepage link should have HOUSE icon and not ARROW.
         - The Homepage link should say "Gallery"
         - The Homepage link should be red color

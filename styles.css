@@ -14,24 +14,62 @@ img {
 }
 
 .prev:before{
-     font-size: 26px;
      content: "\21E6";
      margin-right: 20px;   
 }
+.prev{
+    font-size: 26px;
+}
  .next:after{
-     font-size: 26px;
      content: "\21E8";
      margin-left: 20px;
  }
- .home:after{
-     font-size: 26px;
+ .next{
+    font-size: 26px;
+ }
+ .home:before{    
      content: "\1F3E0";
-     margin-left: 20px; 
+     margin-right: 20px;
  }
  .home{
+    font-size: 26px;
      color:red;
+     display: inline-block;
+     margin-top: 20px;
  }
 h4{
     color: #888888;
 }
 
+
+.links{
+    width: 100%;
+}
+.links td{
+    width: 25%;
+    padding: 10px;
+}
+
+.links td:hover{
+    background: #308d30;
+    color: #ffffff;
+}
+
+.links td a{
+    color: #308d30;
+}
+
+.links td:hover a{
+    color: #ffffff;
+}
+
+.next{
+    text-align: right;
+}
+.full{
+    width: 50%;
+}
+
+.links td.full:hover{
+    background-color: transparent;
+}
