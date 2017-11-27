@@ -1,0 +1,37 @@
+body{
+    font-family: arial;   
+}
+
+h3{
+    font-size: 22px;
+}
+.darker{
+    background-color: #eeeeee;
+}
+ 
+img {
+    border: 1px solid red;
+}
+
+.prev:before{
+     font-size: 26px;
+     content: "\21E6";
+     margin-right: 20px;   
+}
+ .next:after{
+     font-size: 26px;
+     content: "\21E8";
+     margin-left: 20px;
+ }
+ .home:after{
+     font-size: 26px;
+     content: "\1F3E0";
+     margin-left: 20px; 
+ }
+ .home{
+     color:red;
+ }
+h4{
+    color: #888888;
+}
+
