@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>JavaScript test</title>
+        <style>
+            .message{
+                display: none;
+            }
+            
+        </style>
+        <script>
+                function myClick(event){
+                    var a = new Date();
+                    console.log('TEST');
+                    var el = document.getElementsByClassName('home')[0];
+                    el.textContent = a.getFullYear();
+                    event.preventDefault();
+                }
+
+                function registracion(event) {
+                    var elMensaje = document.getElementById('mensaje');
+                    var elError = document.getElementById('error');
+
+                    var nombre = document['formulario-registracion'].elements['nombre'].value;
+                    var apellido = document['formulario-registracion'].elements['apellido'].value;
+                   
+
+                    if (nombre === '' || apellido === '') {
+                        elError.style.display = 'block';
+                        elMensaje.style.display = 'none';
+                    } else {
+                        elError.style.display = 'none';
+                        elMensaje.style.display = 'block';
+                    }
+                    
+
+                    event.preventDefault();
+                }
+            </script>
+    </head>
+    <h1>JS Test</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet possimus minus, quos accusantium optio voluptate dolor sint, doloribus est, quisquam exercitationem! Nobis consequuntur dignissimos debitis odit incidunt, magnam animi ipsam.</p>
+    <a href="#" class="home" onclick="myClick(event)">Homepage</a>
+
+    <form name="formulario-registracion">
+        <table>
+            <tr>
+                <td>
+                    <b>Introducir su nombre</b>
+                    <input name="nombre">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Introducir su apellido</b>
+                    <input name="apellido">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="submit" value="Registra" onclick="registracion(event)">
+                </td>
+            </tr>
+
+        </table>
+        
+    </form>
+
+
+    <table id="mensaje" class="message">
+        <tr><td><h2>EXITO</h2></td></tr>
+        <tr><td>Tu registracion fue exitosa</td></tr>
+    </table>
+
+    <table id="error" class="message">
+        <tr><td><h2>ERROR</h2></td></tr>
+        <tr><td>Tu eres un idiota!</td></tr>
+    </table>
+</html>
